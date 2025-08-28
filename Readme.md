@@ -12,6 +12,7 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 - Can be used with any toolhead / probe combo as there aren't any negative Z moves
 - A modified G28 allows for safe Z homing 
 - Easy to Print components
+- Designed to plug into a BL Touch Port for easy wiring
 
 ## BOM
 
@@ -23,25 +24,22 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | Bambu style silicone brush | 1 |
 | 6 x 3 mm magnet | 2 |
 | 15 x 15 x 1 mm metal square | 1 |
+| M5 x 10 mm SHCS | 2 |
+| M5 Rollnut | 2 |
 | M3 Hex Nut | 2 |
 | M3 Washer | 1 |
-| M3 x 5 x 4 mm Heat Set Insert | 6 |
+| M3 x 5 x 4 mm Heat Set Insert | 8 |
+| M3 x 5 mm SHCS | 1 |
+| M3 x 6 mm SHCS | 1 | 
+| M3 x 8 mm SHCS | 2 |
+| M3 x 8 mm BHCS | 1 |
+| M3 x 6 mm BHCS | 1 |
+| M2 x 8 mm SHCS | 2 |
+| JST-XH Male / Female Plugs / Crimps | ~ |
 
-Dillinger uses a number of open source projects to work properly:
-
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+In addition to the included STLs in this repositiory, Turd Herder requires the following parts from the [AFC-Accessories] repo.
+- [mount_lower.stl]
+- [mount_upper.stl]
 
 ## Installation
 
@@ -162,6 +160,10 @@ MIT
    [Dendrowen's Blobifier]: <https://github.com/Dendrowen/Blobifier>
    [ImSundee's Turtleblobifier]: https://github.com/ImSundee/Turtleblobifier
    [Armored Turtle's AT Brush]: https://github.com/ArmoredTurtle/AFC-Accessories/tree/main/AT_Brush
+   [AFC-Accessories]: https://github.com/ArmoredTurtle/AFC-Accessories
+   [mount_lower.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_lower.stl
+   [mount_upper.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_upper.stl
+   
    
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [john gruber]: <http://daringfireball.net>
