@@ -13,6 +13,13 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 - A modified G28 allows for safe Z homing 
 - Easy to Print components
 - Designed to plug into a BL Touch Port for easy wiring
+- Optional brush attachment creates an all-in-one solution
+
+## Required Tools
+- Sodering Iron
+- Crimping Tool
+- Wire Stripper
+- Allen Wrenches / Hex Drivers (1.5, 2, 3 and 5 mm)
 
 ## BOM
 
@@ -36,14 +43,21 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | M3 x 6 mm BHCS | 1 |
 | M2 x 8 mm SHCS | 2 |
 | JST-XH Male / Female Plugs / Crimps | ~ |
+| 3 mm ID Bowden Tube (optional) | ~4.5 mm |
+| Zip Ties (optional) | ~ |
+*Note the M3 Hex Nuts MUST be magnetic.  The sled mechanism will not work properly without a strong-ish magnetic connection.*
 
 In addition to the included STLs in this repositiory, Turd Herder requires the following parts from the [AFC-Accessories] repo.
 - [mount_lower.stl]
 - [mount_upper.stl]
 
-## Installation
+## Printing
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+Parts should be printed in ABS and in accordance to typical Voron specs which may be found [here]. Tolerances for the slots are a little tight and may require some filing to achieve a smooth translation from front to rear.
+All parts are oriented correctly and don't require any modifications from the slicer.
+
+# Assembly 
+
 
 Install the dependencies and devDependencies and start the server.
 
@@ -163,6 +177,7 @@ MIT
    [AFC-Accessories]: https://github.com/ArmoredTurtle/AFC-Accessories
    [mount_lower.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_lower.stl
    [mount_upper.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_upper.stl
+   [here]:<https://docs.vorondesign.com/sourcing.html#print-settings>
    
    
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
