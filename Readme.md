@@ -57,7 +57,14 @@ Parts should be printed in ABS and in accordance to typical Voron specs which ma
 All parts are oriented correctly and don't require any modifications from the slicer.
 
 # Assembly 
+## Hardware
 
+1) Install 6 M3 heatset inserts: 
+    - front_arm_base x2
+    - slide_base x2
+    - chimney x2
+![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
+![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
 Install the dependencies and devDependencies and start the server.
 
