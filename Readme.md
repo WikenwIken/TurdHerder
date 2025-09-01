@@ -87,7 +87,7 @@ All parts are oriented correctly and don't require any modifications from the sl
 8) Screw the M3x8 BHCS into the slender end of the __cog__ until it is flush with the bottom of the part.  It should not protrude from the bottom at all.  The cog will likely try to rotate during this step.  If it does, it can be pushed back into the position indicated above.
 9) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation.__
 
-![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW.png)
+![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW_O.png)
 
 
     
