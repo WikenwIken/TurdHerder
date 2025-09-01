@@ -1,6 +1,8 @@
 # Turd Herder
 ## _The Porcelain Standard for 3D Printer Waste Management_
 
+![INST](https://github.com/WikenwIken/TurdHerder/blob/main/Images/INST.png)
+
 The Turd Herder is a dookie dispoasl system for 3D printers with toolheads that have limited to no travel past the edges of the print bed.  The bowl extends over the edge of the print bed, receives the "payload" and proceeds to retract and whisk it off to a tank in the depths below.  
 
 Turd Herder was designed for use with the Voron Trident / Box Turtle AMS combo running Klipper firmware. The macros are designed to integrate with the AFC Macros (included with the Box Turtle system).
