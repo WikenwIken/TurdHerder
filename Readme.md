@@ -38,9 +38,8 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | M3 Hex Nut | 2 |
 | M3 Washer | 1 |
 | M3 x 5 x 4 mm Heat Set Insert | 8 |
-| M3 x 5 mm SHCS | 1 |
-| M3 x 6 mm SHCS | 1 | 
-| M3 x 8 mm SHCS | 2 |
+| M3 x 6 mm SHCS | 2 | 
+| M3 x 8 mm SHCS | 4 |
 | M3 x 8 mm BHCS | 1 |
 | M3 x 6 mm BHCS | 1 |
 | M2 x 8 mm SHCS | 2 |
@@ -56,7 +55,8 @@ In addition to the included STLs in this repositiory, Turd Herder requires the f
 ## Printing
 
 Parts should be printed in ABS and in accordance to typical Voron specs which may be found [here]. Tolerances for the slots are a little tight and may require some filing to achieve a smooth translation from front to rear.
-All parts are oriented correctly and don't require any modifications from the slicer.
+All parts are oriented correctly and don't require any modifications from the slicer.  
+Supports should not be needed.
 
 # Assembly 
 ## Macros
