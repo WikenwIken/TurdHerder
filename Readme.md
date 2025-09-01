@@ -59,10 +59,11 @@ All parts are oriented correctly and don't require any modifications from the sl
 # Assembly 
 ## Hardware
 
-1) Install 6 M3 heatset inserts: 
+1) Install 6 M3 heatset inserts according to the images below: 
     - front_arm_base x2
     - slide_base x2
     - chimney x2
+    
 ![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
