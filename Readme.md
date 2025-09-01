@@ -67,8 +67,10 @@ Supports should not be needed.
     - front_arm_base x2
     - slide_base x2
     - chimney x2
+    
 Fig. 1    
 ![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
+
 Fig. 2
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
