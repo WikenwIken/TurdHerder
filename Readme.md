@@ -69,11 +69,28 @@ All parts are oriented correctly and don't require any modifications from the sl
 ![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
-2) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp but do not install them in the plug yet.
+2) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp / plug.  Orientation in the plug does not matter for the limit switch.
+3) MG90S Servos typically ship with dupont connectors.  These will need to be removed and replaced by an appropriate connector.  Consult your main board's pinout diagram before building your new connector.
+3) Attach the servo to the __servo_mount__ using the self-tapping screws that came with the servo.  It will only fit one way.
+4) Secure the __slide_base__ to the __servo_mount__ using 2 M3x8 SHCS
+5) Plug the servo into the socket on the main board that you defined in /turdherder/turdherder.cfg.  
+    - Execute the macro ___SERVO_IN___.  This should rotate the shaft *clockwise*  
+    - Execute the macro ___SERVO_OUT___.  This should rotate the shaft *counter-clockwise*
+    - If the shaft does not rotate, check your wiring / pin definitions.
+    - If the shaft rotates in the wrong direction some modification of the code is likely in order to make it work with your motor.
+6) Execute the macro ___SERVO_OUT___ and press the __cog__ onto the shaft in the position shown below.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ___SERVO_IN___ and ___SERVO_OUT___ to confirm the cog has full range of travel.  
+*Note: The motor should complete its move without physically butting up against the frame.  If the motor doesn't stop freely then some physical / code adjustments should be made.*
 
-3) Attach the servo to the servo_mount using the hardware that came with the servo.  It will only fit one way.
-4) Feed the wires through the rectangular hole in the servo_mount and secure the switch in place with M2x8 screws.  __Mind the orientation.__
+![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/Cog_O.png)
+
+7) Ensure that the cog is in the position indicated above by running the ___SERVO_OUT___ macro and unplug the servo from the main board before moving on.
+8) Screw the M3x8 BHCS into the slender end of the __cog__ until it is flush with the bottom of the part.  It should not protrude from the bottom at all.  The cog will likely try to rotate during this step.  If it does, it can be pushed back into the position indicated above.
+9) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation.__
+
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW.png)
+
+
+    
 
 
 
