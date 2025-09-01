@@ -87,12 +87,14 @@ Fig. 2
 *Note: The motor should complete its move without physically butting up against the frame.  If the motor doesn't stop freely then some physical / code adjustments should be made.*
 
 Fig. 3
+
 ![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/COG_O.png)
 
 7) Ensure that the cog is in the position indicated in Figure 3 by running the ___SERVO_OUT___ macro and unplug the servo from the main board before moving on.
 8) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation in Figure 4.__
 
 Fig. 4
+
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW_O.png)
 
 9) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3 screw from below that won't protrude above the nut to hold it in place.  
@@ -101,21 +103,25 @@ Fig. 4
 12) Click the __sled__ in place on the __slide_mount__ (Figure 5)
 
 Fig. 5
+
 ![SL](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SL.png)
 
 13) Attach the __chimney_slot__ to the __chimney__ by inserting an M3x6 SHCS into the hole on the left-rear of the parts. (Figure 6)
 14) Insert 1 M3 Hex Nut into the cutout in the __chimney__ and secure it with an M3x6 BHCS through the holes in the middle. (Figure 7)
 
 Fig. 6
+
 ![CHHW_1](https://github.com/WikenwIken/TurdHerder/blob/main/Images/CHHW_1.png)
 
 Fig. 7
+
 ![CHWW_2](https://github.com/WikenwIken/TurdHerder/blob/main/Images/CHHW_2.png)
 
 15) Drop the chimney assembly into the slots on the __slide_mount__.  The top of the __sled__ inserts into the space in the __chimney__ with the M3 Hex Nut.  Align the slot in the __chimney_slot__ with the hole in the slender end of the __cog__ and screw an M3x8 BHCS into the __cog__ until it is flush with the underside (Figure 8).  It should not protrude from the bottom at all.  This connection should remain fairly loose to allow for free translation of the screw in the slot.  It is easily adjusted later if movement is labored.
 _OPTIONAL: A 4mm OD x 3mm ID bowden tube sleeve may be installed around the M3x8 screw to cut down on the threads wearing out the slot_
 
 Fig. 8
+
 ![PS](https://github.com/WikenwIken/TurdHerder/blob/main/Images/PS.png)
 
 16) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS
@@ -128,6 +134,7 @@ Fig. 8
 20) Attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS
 
 Fig. 9
+
 ![INST](https://github.com/WikenwIken/TurdHerder/blob/main/Images/INST.png)
 
 21) Adjust the height of the assembly so that, when the Turd Herder is extended, the nozzle comes in contact with the brush on the Z axis.  (See Step 16 in the [AT Brush Manual])
