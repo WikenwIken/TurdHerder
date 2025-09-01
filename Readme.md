@@ -84,28 +84,34 @@ All parts are oriented correctly and don't require any modifications from the sl
 ![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/COG_O.png)
 
 7) Ensure that the cog is in the position indicated above by running the ___SERVO_OUT___ macro and unplug the servo from the main board before moving on.
-8) Screw the M3x8 BHCS into the slender end of the __cog__ until it is flush with the bottom of the part.  It should not protrude from the bottom at all.  The cog will likely try to rotate during this step.  If it does, it can be pushed back into the position indicated above.
-9) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation.__
+8) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation.__
 
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW_O.png)
+
+9) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3 screw from below that won't protrude above the nut to hold it in place.  
+10) Insert 2 6 x 3 mm magnets into the holes in __sled__.  A dab of super glue may be required to old them in place.  Polarity is not important.  Be careful not to split the layers.    
+11) Glue the Aluminum Plate onto the tray of the __sled__.  It should not protrude above the edges of the tray.
+12) Click the __sled__ in place on the __slide_mount__ 
+
+![SL](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SL.png)
+
+13) Attach the __chimney_slot__ to the __chimney__ by inserting an M3x6 SHCS into the hole on the left-rear of the parts.
+14) Insert 1 M3 Hex Nut into the cutout in the __chimney__ and secure it with an M3x6 BHCS through the holes in the middle.
+
+![CHHW_1](https://github.com/WikenwIken/TurdHerder/blob/main/Images/CHHW_1.png)
+![CHWW_2](https://github.com/WikenwIken/TurdHerder/blob/main/Images/CHHW_2.png)
+
+15) Drop the chimney assembly into the slots on the __slide_mount__.  The top of the __sled__ inserts into the space in the __chimney__ with the M3 Hex Nut.  Align the slot in the __chimney_slot__ with the hole in the slender end of the __cog__ and screw an M3x8 BHCS into the __cog__ until it is flush with the underside.  It should not protrude from the bottom at all.  This connection should remain fairly loose to allow for free translation of the screw in the slot.  It is easily adjusted later if movement is labored.
+_OPTIONAL: A 4mm OD x 3mm ID bowden tube sleeve may be installed around the M3x8 screw to cut down on the threads wearing out the slot_
+
+![PS](https://github.com/WikenwIken/TurdHerder/blob/main/Images/PS.png)
+
+16) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS
+17) Attach the silicone brush to the top surface of the __brush_arm__ 
 
 
     
 
-
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
 
 ## Plugins
 
