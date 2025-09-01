@@ -27,7 +27,7 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | ------ | ------ |
 | MG90S Servo (180°) | 1 |
 | Servo Hardware Kit | 1 |
-| D2F-01L Switch (with lever) | 1 |
+| Micro Limit Switch (with lever) | 1 |
 | Bambu style silicone brush | 1 |
 | 6 x 3 mm magnet | 2 |
 | 15 x 15 x 1 mm metal square | 1 |
@@ -59,7 +59,8 @@ All parts are oriented correctly and don't require any modifications from the sl
 # Assembly 
 ## Hardware
 
-1) Install 6 M3 heatset inserts according to the images below: 
+1) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp but do not install them in the plug yet.
+2) Install 6 M3 heatset inserts according to the images below: 
     - front_arm_base x2
     - slide_base x2
     - chimney x2
@@ -67,7 +68,10 @@ All parts are oriented correctly and don't require any modifications from the sl
 ![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
-Install the dependencies and devDependencies and start the server.
+
+3) Attach the servo to the servo_mount using the hardware that came with the servo.  It will only fit one way.
+4) Feed the wires through the rectangular hole in the servo_mount and secure the switch in place with M2x8 screws.  Mind the orientation.
+![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW.png)
 
 ```sh
 cd dillinger
