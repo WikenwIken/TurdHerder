@@ -108,8 +108,21 @@ _OPTIONAL: A 4mm OD x 3mm ID bowden tube sleeve may be installed around the M3x8
 
 16) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS
 17) Attach the silicone brush to the top surface of the __brush_arm__ 
+18) Assembly of the Turd Herder is complete.  
 
+19) Follow these instructions in the [AT Brush Manual] utilizing the modified __front_arm_base__ from this repository:
+    - Steps 1 - 8
+    - Steps 13 - 15
+20) Attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS
 
+![INST](https://github.com/WikenwIken/TurdHerder/blob/main/Images/INST.png)
+
+21) Adjust the height of the assembly so that, when the Turd Herder is extended, the nozzle comes in contact with the brush on the Z axis.  (See Step 16 in the [AT Brush Manual])
+
+22) Plug the servo and the limit switch into the main board.  
+    - Ensure smooth movement by cycling through the __SERVO_IN, SERVO_MID__ and __SERVO_OUT__ macros
+    - Ensure the __TH__ limit switch reads *detected* in the __SERVO_IN__ and __SERVO_MID__ positions.
+    - Ensure the __TH__ limit switch reads *not detected* in the __SERVO_OUT__ position.
     
 
 
@@ -217,6 +230,7 @@ MIT
    [mount_lower.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_lower.stl
    [mount_upper.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_upper.stl
    [here]:<https://docs.vorondesign.com/sourcing.html#print-settings>
+   [AT Brush Manual]: https://www.armoredturtle.xyz/manual.html?manual=at_brush&step=1
    
    
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
