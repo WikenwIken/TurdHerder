@@ -57,10 +57,11 @@ Parts should be printed in ABS and in accordance to typical Voron specs which ma
 All parts are oriented correctly and don't require any modifications from the slicer.
 
 # Assembly 
+## Macros
+### (this needs to be written still and has to come before Hardware section)
 ## Hardware
 
-1) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp but do not install them in the plug yet.
-2) Install 6 M3 heatset inserts according to the images below: 
+1) Install 6 M3 heatset inserts according to the images below: 
     - front_arm_base x2
     - slide_base x2
     - chimney x2
@@ -68,10 +69,13 @@ All parts are oriented correctly and don't require any modifications from the sl
 ![HSI_01](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_01.png)
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
+2) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp but do not install them in the plug yet.
 
 3) Attach the servo to the servo_mount using the hardware that came with the servo.  It will only fit one way.
-4) Feed the wires through the rectangular hole in the servo_mount and secure the switch in place with M2x8 screws.  Mind the orientation.
+4) Feed the wires through the rectangular hole in the servo_mount and secure the switch in place with M2x8 screws.  __Mind the orientation.__
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW.png)
+
+
 
 ```sh
 cd dillinger
