@@ -81,7 +81,7 @@ All parts are oriented correctly and don't require any modifications from the sl
 6) Execute the macro ___SERVO_OUT___ and press the __cog__ onto the shaft in the position shown below.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ___SERVO_IN___ and ___SERVO_OUT___ to confirm the cog has full range of travel.  
 *Note: The motor should complete its move without physically butting up against the frame.  If the motor doesn't stop freely then some physical / code adjustments should be made.*
 
-![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/Cog_O.png)
+![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/COG_O.png)
 
 7) Ensure that the cog is in the position indicated above by running the ___SERVO_OUT___ macro and unplug the servo from the main board before moving on.
 8) Screw the M3x8 BHCS into the slender end of the __cog__ until it is flush with the bottom of the part.  It should not protrude from the bottom at all.  The cog will likely try to rotate during this step.  If it does, it can be pushed back into the position indicated above.
