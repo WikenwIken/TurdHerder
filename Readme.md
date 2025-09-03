@@ -62,16 +62,15 @@ All parts are oriented correctly and don't require any modifications from the sl
 Supports should not be needed.
 
 # Software Installation
-__!!!It is important that the software be installed prior to building the Turd Herder as some of the macros are vital to the installation process!!!
+__It is important that the software be installed prior to building the Turd Herder as some of the macros are vital to the installation process.
 It is recommended that you make a backup of your __printer.cfg__ and __/AFC/AFC.cfg__ files before proceeding.__
-
 Variables do not need to be tuned at this point, we're just installing the software so the servo macros may be utilized for the install.  We will cover the critical variables later in this document.
 1) Clone this project into your printer's config folder ``` git clone https://github.com/WikenwIken/Turdherder ~/printer_data/config/Turdherder```
 2) Make the following changes to your printer.cfg file:
     - Add ```[include /turdherder/turdherder.cfg]```
     - Comment out ```[safe_z_home]``` and all lines included within
-    - Paste the sections `[force_move]` and `[homing_override]` from printurd.cfg into your printer.cfg, adding in any custom features that may have been set up in `[safe_z_home]`
-3) 
+    - Paste the sections `[force_move]` and `[homing_override]` from /turdherder/printurd.cfg into your printer.cfg, adding in any custom features that may have been set up in `[safe_z_home]`
+3) Make the adjustments to your /AFC/AFC.cfg file as noted in the second half of the /turdherder/printurd.cfg file
 
 # Assembly
 
