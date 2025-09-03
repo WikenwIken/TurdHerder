@@ -82,9 +82,9 @@ Variables do not need to be tuned at this point, we're just installing the softw
 # Assembly
 
 1a) Install 6 M3 heat set inserts according to Figures 1 and 2: 
-    - front_arm_base x2 
-    - servo_base x2 
-    - chimney x2
+    front_arm_base x2 
+    servo_base x2 
+    chimney x2
     
     
 Fig. 1    
