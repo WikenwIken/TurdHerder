@@ -98,7 +98,7 @@ Fig. 2
 4) MG90S Servos typically ship with dupont connectors.  These will need to be removed and replaced by an appropriate connector.  Consult your main board's pinout diagram before building your new connector.
 5) Attach the servo to the __servo_mount__ using the self-tapping screws that came with the servo.  It will only fit one way.
 6) Secure the __slide_base__ to the __servo_mount__ using 2 M3x8 SHCS (Figure 3)
-7) Plug the servo into the socket on the main board that you defined in /turdherder/turdherder.cfg.  
+7) Plug the servo into the socket on the main board that you defined in /TurdHerder/turd_hw.cfg.  
     - Execute the macro ```SERVO_IN```.  This should rotate the shaft *clockwise*  
     - Execute the macro ```SERVO_OUT```.  This should rotate the shaft *counter-clockwise*
     - If the shaft does not rotate, check your wiring / pin definitions.
@@ -117,7 +117,7 @@ Fig. 4
 
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW_O.png)
 
-11) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3 screw from below that won't protrude above the nut to hold it in place.  
+11) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3x4 or M3x5 screw from below that won't protrude above the nut to hold it in place.  
 12) Insert 2 6 x 3 mm magnets into the holes in __sled__.  A dab of super glue may be required to old them in place.  Polarity is not important.  Be careful not to split the layers.    
 13) Glue the Aluminum Plate onto the tray of the __sled__.  It should not protrude above the edges of the tray.
 14) Click the __sled__ in place on the __slide_mount__ (Figure 5)
@@ -144,7 +144,12 @@ Fig. 8
 
 ![PS](https://github.com/WikenwIken/TurdHerder/blob/main/Images/PS.png)
 
-18) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS
+18) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS (Figure 9).
+
+Fig. 9
+
+![ARM](https://github.com/WikenwIken/TurdHerder/blob/main/Images/ARM.png)
+
 19) Attach the silicone brush to the top surface of the __brush_arm__ 
 20) Assembly of the Turd Herder is complete.  (Figure 9)
 
