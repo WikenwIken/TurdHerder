@@ -14,14 +14,14 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 - Can be used with any toolhead / probe combo as there aren't any negative Z moves
 - A modified G28 allows for safe Z homing 
 - Easy to Print components
-- Designed to plug into a BL Touch Port for easy wiring
+- Components can be plugged in separately or combined into a BL Touch plug
 - Optional brush attachment creates an all-in-one solution
 
 ## Required Tools
 - Sodering Iron
 - Crimping Tool
 - Wire Stripper
-- Allen Wrenches / Hex Drivers (1.5, 2, 3 and 5 mm)
+- Allen Wrenches / Hex Drivers (1.5, 2, 2.5, 3mm)
 - Small Phillips Screw Driver
 
 ## BOM
@@ -164,4 +164,5 @@ Fig. 9
    [mount_upper.stl]: https://github.com/ArmoredTurtle/AFC-Accessories/blob/main/AT_Brush/STLs/mount_upper.stl
    [here]:<https://docs.vorondesign.com/sourcing.html#print-settings>
    [AT Brush Manual]: https://www.armoredturtle.xyz/manual.html?manual=at_brush&step=1
+
 
