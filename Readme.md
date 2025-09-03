@@ -43,9 +43,11 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | M3 x 8 mm BHCS | 1 |
 | M3 x 6 mm BHCS | 1 |
 | M2 x 8 mm SHCS | 2 |
-| JST-XH Male / Female Plugs / Crimps | ~ |
 | 3 mm ID Bowden Tube (optional) | ~4.5 mm |
+| JST-XH Male / Female Plugs / Crimps | ~ |
 | Zip Ties (optional) | ~ |
+
+
 
 *Note the M3 Hex Nuts MUST be magnetic.  The sled mechanism will not work properly without a strong-ish magnetic connection.*
 
@@ -80,18 +82,18 @@ Fig. 2
 3) Attach the servo to the __servo_mount__ using the self-tapping screws that came with the servo.  It will only fit one way.
 4) Secure the __slide_base__ to the __servo_mount__ using 2 M3x8 SHCS (Figure 3)
 5) Plug the servo into the socket on the main board that you defined in /turdherder/turdherder.cfg.  
-    - Execute the macro ___SERVO_IN___.  This should rotate the shaft *clockwise*  
-    - Execute the macro ___SERVO_OUT___.  This should rotate the shaft *counter-clockwise*
+    - Execute the macro ```SERVO_IN```.  This should rotate the shaft *clockwise*  
+    - Execute the macro ```SERVO_OUT```.  This should rotate the shaft *counter-clockwise*
     - If the shaft does not rotate, check your wiring / pin definitions.
     - If the shaft rotates in the wrong direction some modification of the code is likely in order to make it work with your motor.
-6) Execute the macro ___SERVO_OUT___ and press the __cog__ onto the shaft as seen in Figure 3.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ___SERVO_IN___ and ___SERVO_OUT___ to confirm the cog has full range of travel.  
+6) Execute the macro ```SERVO_OUT``` and press the __cog__ onto the shaft as seen in Figure 3.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ```SERVO_IN``` and ```SERVO_OUT``` to confirm the cog has full range of travel.  
 *Note: The motor should complete its move without physically butting up against the frame.  If the motor doesn't stop freely then some physical / code adjustments should be made.*
 
 Fig. 3
 
 ![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/COG_O.png)
 
-7) Ensure that the cog is in the position indicated in Figure 3 by running the ___SERVO_OUT___ macro and unplug the servo from the main board before moving on.
+7) Ensure that the cog is in the position indicated in Figure 3 by running the ```SERVO_OUT``` macro and unplug the servo from the main board before moving on.
 8) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation in Figure 4.__
 
 Fig. 4
