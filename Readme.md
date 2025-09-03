@@ -165,9 +165,9 @@ Fig. 9
 23) Adjust the height of the assembly so that, when the Turd Herder is extended, the nozzle comes in contact with the brush on the Z axis.  (See Step 16 in the [AT Brush Manual])
 
 24) Plug the servo and the limit switch into the main board.  
-    - Ensure smooth movement by cycling through the ```SERVO_IN```, ```SERVO_MID``` and ```SERVO_OUT``` macros
-    - Ensure the `TH` limit switch reads *detected* in the ```SERVO_IN``` and ```SERVO_MID``` positions.
-    - Ensure the ``TH`` limit switch reads *not detected* in the ```SERVO_OUT``` position.
+    - Ensure smooth movement by cycling through the `SERVO_IN`, `SERVO_MID` and `SERVO_OUT` macros
+    - Ensure the `turdherd` limit switch reads *detected* in the `SERVO_IN` and `SERVO_MID` positions.
+    - Ensure the `turdherd` limit switch reads *not detected* in the `SERVO_OUT` position.
 25) Congratulations!  The Turd Herder is fully assembled and the mechanism is working as intended!  Don't release those bowels just yet, there are a few more things to set up.
 
 # Critical Variables
