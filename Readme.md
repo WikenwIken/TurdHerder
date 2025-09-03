@@ -79,7 +79,7 @@ Variables do not need to be tuned at this point, we're just installing the softw
 
 # Assembly
 
-1a) Install 6 M3 heatset inserts according to Figures 1 and 2: 
+1a) Install 6 M3 heat set inserts according to Figures 1 and 2: 
     - front_arm_base x2
     - servo_base x2
     - chimney x2
@@ -90,7 +90,7 @@ Fig. 1
 Fig. 2
 ![HSI_02](https://github.com/WikenwIken/TurdHerder/blob/main/Images/HSI_02.png)
 
-1b) Install 2 M3 heatset inserts into __mount_upper__ according to [Step 4] of the AT Brush Manual.
+1b) Install 2 M3 heat set inserts into __mount_upper__ according to [Step 4] of the AT Brush Manual.
 2) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp / plug.  Orientation in the plug does not matter for the limit switch.
 3) MG90S Servos typically ship with dupont connectors.  These will need to be removed and replaced by an appropriate connector.  Consult your main board's pinout diagram before building your new connector.
 3) Attach the servo to the __servo_mount__ using the self-tapping screws that came with the servo.  It will only fit one way.
