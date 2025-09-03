@@ -46,6 +46,7 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 | JST-XH Male / Female Plugs / Crimps | ~ |
 | 3 mm ID Bowden Tube (optional) | ~4.5 mm |
 | Zip Ties (optional) | ~ |
+
 *Note the M3 Hex Nuts MUST be magnetic.  The sled mechanism will not work properly without a strong-ish magnetic connection.*
 
 In addition to the STLs in this repositiory, Turd Herder requires the following parts from the [AFC-Accessories] repo.
@@ -76,7 +77,9 @@ Fig. 2
 
 2) Solder one wire to each of the outer pins of the micro limit switch.  Terminate each wire with an appropriate sized crimp / plug.  Orientation in the plug does not matter for the limit switch.
 3) MG90S Servos typically ship with dupont connectors.  These will need to be removed and replaced by an appropriate connector.  Consult your main board's pinout diagram before building your new connector.
-3) Attach the servo to the __servo_mount__ using the self-tapping screws that came with the servo.  It will only fit one way.
+3) Attach the servo to the 
+'''servo_mount
+using the self-tapping screws that came with the servo.  It will only fit one way.
 4) Secure the __slide_base__ to the __servo_mount__ using 2 M3x8 SHCS (Figure 3)
 5) Plug the servo into the socket on the main board that you defined in /turdherder/turdherder.cfg.  
     - Execute the macro ___SERVO_IN___.  This should rotate the shaft *clockwise*  
