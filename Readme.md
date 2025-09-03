@@ -22,17 +22,17 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 - Crimping Tool
 - Wire Stripper
 - Allen Wrenches / Hex Drivers (1.5, 2, 3 and 5 mm)
+- Small Phillips Screw Driver
 
 ## BOM
 
 | Part | QTY | 
 | ------ | ------ |
-| MG90S Servo (180°) | 1 |
-| Servo Hardware Kit | 1 |
+| MG90S Servo (180°) + Hardware Kit | 1 |
 | Micro Limit Switch (with lever) | 1 |
 | Bambu style silicone brush | 1 |
 | 6 x 3 mm magnet | 2 |
-| 15 x 15 x 1 mm metal square | 1 |
+| 15 x 14 x 1 mm aluminum cube | 1 |
 | M5 x 10 mm SHCS | 2 |
 | M5 Rollnut | 2 |
 | M3 Hex Nut | 2 |
@@ -61,10 +61,19 @@ Parts should be printed in ABS and in accordance to typical Voron specs which ma
 All parts are oriented correctly and don't require any modifications from the slicer.  
 Supports should not be needed.
 
-# Assembly 
-## Macros
-### (this needs to be written still and has to come before Hardware section)
-## Hardware
+# Software Installation
+__!!!It is important that the software be installed prior to building the Turd Herder as some of the macros are vital to the installation process!!!
+It is recommended that you make a backup of your __printer.cfg__ and __/AFC/AFC.cfg__ files before proceeding.__
+
+Variables do not need to be tuned at this point, we're just installing the software so the servo macros may be utilized for the install.  We will cover the critical variables later in this document.
+1) Clone this project into your printer's config folder ``` git clone https://github.com/WikenwIken/Turdherder ~/printer_data/config/Turdherder```
+2) Make the following changes to your printer.cfg file:
+    - Add ```[include /turdherder/turdherder.cfg]```
+    - Comment out ```[safe_z_home]``` and all lines included within
+    - Paste the sections `[force_move]` and `[homing_override]` from printurd.cfg into your printer.cfg, adding in any custom features that may have been set up in `[safe_z_home]`
+3) 
+
+# Assembly
 
 1) Install 6 M3 heatset inserts according to Figures 1 and 2: 
     - front_arm_base x2
