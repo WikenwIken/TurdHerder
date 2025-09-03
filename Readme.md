@@ -158,7 +158,7 @@ Fig. 9
 22) Follow these instructions in the [AT Brush Manual] utilizing the modified __front_arm_base__ from this repository:
     - Steps 1 - 8
     - Steps 13 - 15
-23) Attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS
+23) Loosely attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS (Figure 9).  Adjust the Y positioning so that there is ~1-2mm gap between the front of the Turd Herder and the print bed and tighten the screws.
 
 Fig. 9
 
