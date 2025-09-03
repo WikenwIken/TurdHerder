@@ -9,6 +9,7 @@ Turd Herder was designed for use with the Voron Trident / Box Turtle AMS combo r
 
 The motion system was inspired by [Dendrowen's Blobifier], the mounting system incorporates whole, and modified, parts from [Armored Turtle's AT Brush]  and the macros are modified versions of [ImSundee's Turtleblobifier].
 
+### 2025.09.03 - This project is brand new and only tested by the me so far.  Bugs / hitches are to be expected.  Please report anything that isn't working as expected and it will be addressed. 
 
 ## Features
 
@@ -78,7 +79,6 @@ Variables do not need to be tuned at this point, we're just installing the softw
     - Paste the sections `[force_move]` and `[homing_override]` from /turdherder/printurd.cfg into your printer.cfg, adding in any custom features that were previously executed in `[safe_z_home]`
     - Comment out ```[safe_z_home]``` and all lines included within.  This seems crazy but '[homing_override]' and '[safe_z_home]' are incompatable.  
 4) Make the adjustments to your /AFC/AFC.cfg file as noted in the second half of the /TurdHerder/printurd.cfg file
-5) _Make absolutely sure, before proceeding, that your printer homes as expected without the Turd Herder in place._  Run the 'servo_out' macro.  Z should increase and the servo should move after.  Homing the printer should home X and Y first, retract the servo and then move to the "safe" spot and then home Z.
 
 # Assembly
 
@@ -104,31 +104,32 @@ Fig. 2
     - Execute the macro ```SERVO_OUT```.  This should rotate the shaft *counter-clockwise*
     - If the shaft does not rotate, check your wiring / pin definitions.
     - If the shaft rotates in the wrong direction some modification of the code is likely in order to make it work with your motor.
-8) Execute the macro ```SERVO_OUT``` and press the __cog__ onto the shaft as seen in Figure 3.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ```SERVO_IN``` and ```SERVO_OUT``` to confirm the cog has full range of travel.  
+8) _Make absolutely sure, before proceeding, that your printer homes as expected without the Turd Herder in place._  Run the 'servo_out' macro.  Z should increase and the servo should move after.  Homing the printer should home X and Y first, retract the servo and then move to the "safe" spot and then home Z.
+9) Execute the macro ```SERVO_OUT``` and press the __cog__ onto the shaft as seen in Figure 3.  Add the M3 Washer and M2.5 mounting screw if the __cog__ isn't as rigid as you would prefer.  It should be a pretty tight fit.  Once installed, execute the macros ```SERVO_IN``` and ```SERVO_OUT``` to confirm the cog has full range of travel.  
 *Note: The motor should complete its move without physically butting up against the frame.  If the motor doesn't stop freely then some physical / code adjustments should be made.*
 
 Fig. 3
 
 ![COG_O](https://github.com/WikenwIken/TurdHerder/blob/main/Images/COG_O.png)
 
-9) Ensure that the cog is in the position indicated in Figure 3 by running the ```SERVO_OUT``` macro and unplug the servo from the main board before moving on.
-10) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation in Figure 4.__
+10) Ensure that the cog is in the position indicated in Figure 3 by running the ```SERVO_OUT``` macro and unplug the servo from the main board before moving on.
+11) Feed the limit switch up through the rectangular hole in the __servo_mount__ and secure it in place with M2x8 screws.  __Mind the orientation in Figure 4.__
 
 Fig. 4
 
 ![SW](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SW_O.png)
 
-11) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3x4 or M3x5 screw from below that won't protrude above the nut to hold it in place.  
-12) Insert 2 6 x 3 mm magnets into the holes in __sled__.  A dab of super glue may be required to old them in place.  Polarity is not important.  Be careful not to split the layers.    
-13) Glue the Aluminum Plate onto the tray of the __sled__.  It should not protrude above the edges of the tray.
-14) Click the __sled__ in place on the __slide_mount__ (Figure 5)
+12) Insert 1 M3 Hex Nut into the cutout in the __slide_mount__.  If the fit is too tight to press in with your fingers it may be useful to "pull" it into place with an M3 screw from the bottom of the part.  If the fit is too loose use a dab of super glue or insert an M3x4 or M3x5 screw from below that won't protrude above the nut to hold it in place.  
+13) Insert 2 6 x 3 mm magnets into the holes in __sled__.  A dab of super glue may be required to old them in place.  Polarity is not important.  Be careful not to split the layers.    
+14) Glue the Aluminum Plate onto the tray of the __sled__.  It should not protrude above the edges of the tray.
+15) Click the __sled__ in place on the __slide_mount__ (Figure 5)
 
 Fig. 5
 
 ![SL](https://github.com/WikenwIken/TurdHerder/blob/main/Images/SL.png)
 
-15) Attach the __chimney_slot__ to the __chimney__ by inserting an M3x6 SHCS into the hole on the left-rear of the parts. (Figure 6)
-16) Insert 1 M3 Hex Nut into the cutout in the __chimney__ and secure it with an M3x6 BHCS through the holes in the middle. (Figure 7)
+16) Attach the __chimney_slot__ to the __chimney__ by inserting an M3x6 SHCS into the hole on the left-rear of the parts. (Figure 6)
+17) Insert 1 M3 Hex Nut into the cutout in the __chimney__ and secure it with an M3x6 BHCS through the holes in the middle. (Figure 7)
 
 Fig. 6
 
@@ -138,38 +139,38 @@ Fig. 7
 
 ![CHWW_2](https://github.com/WikenwIken/TurdHerder/blob/main/Images/CHHW_2.png)
 
-17) Drop the chimney assembly into the slots on the __slide_mount__.  The top of the __sled__ inserts into the space in the __chimney__ with the M3 Hex Nut.  Align the slot in the __chimney_slot__ with the hole in the slender end of the __cog__ and screw an M3x8 BHCS into the __cog__ until it is flush with the underside (Figure 8).  It should not protrude from the bottom at all.  This connection should remain fairly loose to allow for free translation of the screw in the slot.  It is easily adjusted later if movement is labored.
+18) Drop the chimney assembly into the slots on the __slide_mount__.  The top of the __sled__ inserts into the space in the __chimney__ with the M3 Hex Nut.  Align the slot in the __chimney_slot__ with the hole in the slender end of the __cog__ and screw an M3x8 BHCS into the __cog__ until it is flush with the underside (Figure 8).  It should not protrude from the bottom at all.  This connection should remain fairly loose to allow for free translation of the screw in the slot.  It is easily adjusted later if movement is labored.
 _OPTIONAL: A 4mm OD x 3mm ID bowden tube sleeve may be installed around the M3x8 screw to cut down on the threads wearing out the slot_
 
 Fig. 8
 
 ![PS](https://github.com/WikenwIken/TurdHerder/blob/main/Images/PS.png)
 
-18) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS (Figure 9).
+19) Attach the __brush_arm__ to the __chimney__ using an M3x6 SHCS (Figure 9).
 
 Fig. 9
 
 ![ARM](https://github.com/WikenwIken/TurdHerder/blob/main/Images/ARM.png)
 
-19) Attach the silicone brush to the top surface of the __brush_arm__ 
-20) Assembly of the Turd Herder is complete.  (Figure 9)
+20) Attach the silicone brush to the top surface of the __brush_arm__ 
+21) Assembly of the Turd Herder is complete.  (Figure 9)
 
-21) Follow these instructions in the [AT Brush Manual] utilizing the modified __front_arm_base__ from this repository:
+22) Follow these instructions in the [AT Brush Manual] utilizing the modified __front_arm_base__ from this repository:
     - Steps 1 - 8
     - Steps 13 - 15
-22) Attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS
+23) Attach the Turd Herder assembly to the frame mount assembly using 2 M3x8 SHCS
 
 Fig. 9
 
 ![INST](https://github.com/WikenwIken/TurdHerder/blob/main/Images/INST.png)
 
-23) Adjust the height of the assembly so that, when the Turd Herder is extended, the nozzle comes in contact with the brush on the Z axis.  (See Step 16 in the [AT Brush Manual])
+24) Adjust the height of the assembly so that, when the Turd Herder is extended, the nozzle comes in contact with the brush on the Z axis.  (See Step 16 in the [AT Brush Manual])
 
-24) Plug the servo and the limit switch into the main board.  
+25) Plug the servo and the limit switch into the main board.  
     - Ensure smooth movement by cycling through the `SERVO_IN`, `SERVO_MID` and `SERVO_OUT` macros
     - Ensure the `turdherd` limit switch reads *detected* in the `SERVO_IN` and `SERVO_MID` positions.
     - Ensure the `turdherd` limit switch reads *not detected* in the `SERVO_OUT` position.
-25) Congratulations!  The Turd Herder is fully assembled and the mechanism is working as intended!  Don't release those bowels just yet, there are a few more things to set up.
+26) Congratulations!  The Turd Herder is fully assembled and the mechanism is working as intended!  Don't release those bowels just yet, there are a few more things to set up.
 
 # Critical Variables
 The following are the _must have_ variables that need to be defined for the specific printer that Turd Herder is being installed in.  Each variable is accompanied with a description within the .cfg file.
