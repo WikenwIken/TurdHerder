@@ -75,8 +75,8 @@ Variables do not need to be tuned at this point, we're just installing the softw
 2) Open /TurdHerder/turd_hw.cfg and set the correct values for `pin:` and `switch_pin:`  
 3) Make the following changes to your printer.cfg file:
     - Add ```[include /TurdTerder/turdherder.cfg]```
-    - Comment out ```[safe_z_home]``` and all lines included within
     - Paste the sections `[force_move]` and `[homing_override]` from /turdherder/printurd.cfg into your printer.cfg, adding in any custom features that were previously executed in `[safe_z_home]`
+    - Comment out ```[safe_z_home]``` and all lines included within
 4) Make the adjustments to your /AFC/AFC.cfg file as noted in the second half of the /turdherder/printurd.cfg file
 
 # Assembly
