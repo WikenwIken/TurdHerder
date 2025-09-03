@@ -6,6 +6,7 @@
 The Turd Herder is a dookie disposal system for 3D printers with toolheads that have limited to no travel past the edges of the print bed.  The bowl extends over the edge of the print bed, receives the "payload," retracts and whisks it off to a tank in the depths below.  
 
 Turd Herder was designed for use with the Voron Trident / Box Turtle AMS combo running Klipper firmware. The macros are designed to integrate with the AFC Macros (included with the Box Turtle system).
+
 The motion system was inspired by [Dendrowen's Blobifier], the mounting system incorporates whole, and modified, parts from [Armored Turtle's AT Brush]  and the macros are modified versions of [ImSundee's Turtleblobifier].
 
 
@@ -64,12 +65,14 @@ All parts are oriented correctly and don't require any modifiers from the slicer
 Supports should not be needed.
 
 # Software Installation
-__It is important that the software be installed prior to building the Turd Herder as some of the macros are vital to the installation process.__
+__It is important that the software be installed prior to building the Turd Herder as some of the macros are vital to the assembly process.__
 
 __It is recommended that you make a backup of your __printer.cfg__ and __/AFC/AFC.cfg__ files before proceeding.__
+
 Variables do not need to be tuned at this point, we're just installing the software so the servo macros may be utilized for the install.  We will cover the critical variables later in this document.
 
-1) Clone this project into your printer's config folder ``` git clone https://github.com/WikenwIken/TurdHerder ~/printer_data/config/TurdHerder```
+1) Clone this project into your printer's config folder 
+```git clone https://github.com/WikenwIken/TurdHerder ~/printer_data/config/TurdHerder```
 2) Open /TurdHerder/turd_hw.cfg and set the correct values for `pin:` and `switch_pin:`  
 3) Make the following changes to your printer.cfg file:
     - Add ```[include /TurdTerder/turdherder.cfg]```
