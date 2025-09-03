@@ -53,11 +53,11 @@ The motion system was inspired by [Dendrowen's Blobifier], the mounting system i
 
 *Note: The aluminum cube is just a landing pad for the ___hot___ load and can be made of anything that will take the heat better than bare plastic.  We don't things to stick and get clogged.  I cut up an aluminum plate from an old project box but as long as its <=1mm thick you could fold up some aluminum foil or glue a few layers of soda cans together.  Get creative.*
 
+## Printing
+
 In addition to the STLs in this repositiory, Turd Herder requires the following parts from the [AFC-Accessories] repo.
 - [mount_lower.stl]
 - [mount_upper.stl]
-
-## Printing
 
 Parts should be printed in ABS and in accordance to typical Voron specs which may be found [here]. Tolerances for the slots are a little tight and may require some filing to achieve a smooth translation from front to rear.
 All parts are oriented correctly and don't require any modifiers from the slicer.  
