@@ -189,6 +189,7 @@ The following are the _must have_ variables that need to be defined for the spec
 * `variable_brush_start_y`
 * `variable_purge_x`
 * `variable_purge_y`
+* `variable_tray_angle_mid`
 
 ## printer.cfg / printurd.cfg
 `[homing_override]`
