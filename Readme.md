@@ -9,7 +9,8 @@ Turd Herder was designed for use with the Voron Trident / Box Turtle AMS combo r
 
 The motion system was inspired by [Dendrowen's Blobifier], the mounting system incorporates whole, and modified, parts from [Armored Turtle's AT Brush]  and the macros are modified versions of [ImSundee's Turtleblobifier].
 
-### 2025.09.03 - This project is brand new and only tested by the me so far.  Bugs / hitches are to be expected.  Please report anything that isn't working as expected and it will be addressed. 
+### 2025.11.01 - Updated the mounting location of the switch for better reliability and stability.  Only __Cog__, __Slide_Base__ and __Servo_Mount__ have changed since last version. 
+##### 2025.09.03 - This project is brand new and only tested by the me so far.  Bugs / hitches are to be expected.  Please report anything that isn't working as expected and it will be addressed. 
 
 ## Features
 
