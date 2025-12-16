@@ -1,7 +1,10 @@
-# Turd Herder
+# Turd Herder 
 ## _The Porcelain Standard for 3D Printer Waste Management_
+### THIS PROJECT IS A WORK IN PROGRESS.
+If you would like to help with the development of this project please join us in the  [Armored Turtle Discord Thread].  The files contained in this github are usable, however unreliable in their current state.
 
 ![INST](https://github.com/WikenwIken/TurdHerder/blob/main/Images/INST.png)
+
 
 The Turd Herder is a dookie disposal system for 3D printers with toolheads that have limited to no travel past the edges of the print bed.  The bowl extends over the edge of the print bed, receives the "payload," retracts and whisks it off to a tank in the depths below.  
 
@@ -208,4 +211,5 @@ The following are the _must have_ variables that need to be defined for the spec
    [here]:<https://docs.vorondesign.com/sourcing.html#print-settings>
    [AT Brush Manual]: https://www.armoredturtle.xyz/manual.html?manual=at_brush&step=1
    [Step 4]: https://www.armoredturtle.xyz/manual.html?manual=at_brush&step=4
+   [Armored Turtle Discord Thread]: https://discordapp.com/channels/1229586267671629945/1413552213695008869
 
